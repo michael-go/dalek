@@ -1,0 +1,29 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.16.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - dalek-driver-native > dalek-internal-webdriver > wd > request > hawk:
+        patched: '2020-07-04T08:07:45.547Z'
+  'npm:http-signature:20150122':
+    - dalek-driver-native > dalek-internal-webdriver > wd > request > http-signature:
+        patched: '2020-07-04T08:07:45.547Z'
+  'npm:mime:20170907':
+    - dalek-browser-phantomjs > phantomjs > request > form-data > mime:
+        patched: '2020-07-04T08:07:45.547Z'
+    - dalek-driver-native > dalek-internal-webdriver > wd > request > form-data > mime:
+        patched: '2020-07-04T08:07:45.547Z'
+  'npm:minimatch:20160620':
+    - dalek-driver-native > dalek-internal-webdriver > wd > archiver > glob > minimatch:
+        patched: '2020-07-04T08:07:45.547Z'
+  'npm:request:20160119':
+    - dalek-browser-phantomjs > phantomjs > request:
+        patched: '2020-07-04T08:07:45.547Z'
+    - dalek-driver-native > dalek-internal-webdriver > wd > request:
+        patched: '2020-07-04T08:07:45.547Z'
+  'npm:tunnel-agent:20170305':
+    - dalek-browser-phantomjs > phantomjs > request > tunnel-agent:
+        patched: '2020-07-04T08:07:45.547Z'
+    - dalek-driver-native > dalek-internal-webdriver > wd > request > tunnel-agent:
+        patched: '2020-07-04T08:07:45.547Z'
