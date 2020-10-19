@@ -20,7 +20,7 @@
     "js-yaml": "3.2.3",
     "json5": "0.4.0",
     "coffee-script": "1.8.0",
-    "glob": "4.2.1"
+    "glob": "5.0.15"
   },
   "devDependencies": {
     "grunt": "0.4.5",
